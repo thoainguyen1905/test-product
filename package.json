@@ -19,7 +19,7 @@
     "scripts": {
         "start": "react-scripts start",
         "lint": "eslint src --color",
-        "lint:fix": "eslint --fix",
+        "lint:fix": "eslint src --color --fix",
         "lint-staged": "lint-staged --config lint-staged.js",
         "prettier": "prettier src -check",
         "build": "react-scripts build",
